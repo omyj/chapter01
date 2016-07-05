@@ -7,6 +7,10 @@ public class NHelloWorld01 {
 		Scanner sc = new Scanner(System.in);
 		int count = sc.nextInt();
 		
-		System.out.println(count);
+		int i = 0;
+		while( i < count ){
+			System.out.println("Hello World");
+			i = i+1;
+		}
 	}
 }
